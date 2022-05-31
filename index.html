@@ -1,16 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <title>Ayuda a un peludo+Header</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <!--Script de la fecha hora-->
+    <script type="text/javascript" src="js/FechaHoraActual.JS"></script>
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
+  <!--Este es el Script para la fecha y a hora-->
+  <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+        </script>
+
+<!--Header-->
+  
+  <header class="header">
+    <div class="container logo-nav-container">
+      <a href="index.html" class="logo">Ayuda 1P</a>
+      <nav class="navigation">
+
+        
+
+
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="html/pagina_1.html">Gatitos</a></li>
+          <li><a href="html/pagina_2.html">Perritos</a></li>
+          <li><a href="html/pagina_3.html">Nosotros</a></li>
+          <li><a href="html/pagina_4.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- CAROUSEL-->
+    <div id="carousel-controls" class="carousel slide" data-ride="carousel" style="background-color: rgb(243, 243, 243);">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="html/img/Jack1.jpg" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="html/img/Lux1.jpg" alt="" class="d-block w-100">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel-controls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-controls" role="button button-next" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  <main class="main">
+    <div class="container">
+
+
+      <h1>
+        <strong>
+          ONG - AYUDA A UN PELUDO
+        </strong>
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Bibendum at varius vel pharetra. Mattis pellentesque id nibh tortor id aliquet
+        proin. Vitae auctor eu augue ut lectus arcu bibendum at. Lorem sed risus ultricies tristique nulla. Mauris
+        augue neque gravida in fermentum et sollicitudin ac orci. Sit amet cursus sit amet. Eget egestas purus
+        viverra accumsan in. Amet dictum sit amet justo. Mattis molestie a iaculis at erat. Tristique senectus et
+        netus et. Placerat duis ultricies lacus sed turpis tincidunt. Quam quisque id diam vel quam elementum
+        pulvinar. Diam in arcu cursus euismod quis viverra nibh cras. Lectus vestibulum mattis ullamcorper velit sed
+        ullamcorper morbi.
+      </p>
+
+      <h2>
+        Nuestros Integrantes:(pasar a quienes somos)
+      </h2>
+      <ul>
+        <li>Persona 1-cargo 1</li>
+        <li>Persona 2-cargo 2</li>
+        <li>Persona 3-cargo 3</li>
+        <li>Persona 4-cargo 4</li>
+      </ul>
+      <h2>
+        Nuestras secciones de ayuda:
+      </h2>
+
+      <ul>
+        <li><a href="html/pagina_1.html">Gatos</a>
+          <img src="html/img/Gatitos.jpg" alt="Gatitos" title="Gatitos" width="200px" />
+        </li>
+
+        <li><a href="html/pagina_2.html">Perros</a>
+          <img src="html/img/perritos.jpg" alt="Perritos" title="Perritos" width="200px" />
+        </li>
+      </ul>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="fechaHora">
+            <h1 id="mostrarFechaHora">
+                <script type="text/javascript">FechaHora();</script> - 
+            </h1>
+            <h1 id="HoraActual"><script type="text/javascript">showTime();</script></h1>
+          </div>
+      <p>pagina diseñada por míger galvez</p>
+    </div>
+  </footer>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

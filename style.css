@@ -1,4 +1,76 @@
-html, body {
-  height: 100%;
-  width: 100%;
+body{
+    background-color: rgb(248, 248, 248);
+    font-family:sans-serif;
+    color: #333;
+    font-size:1.2rem;
+    line-height:1.4em;
+}
+
+
+p{
+    margin-bottom: 1.6em; 
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin:0 auto    
+}
+
+.header{
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header a{
+    color: rgb(233, 233, 233);
+    text-decoration:none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.4em;
+    font-family: Helvetica;
+}
+
+.navigation {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background-color: #bebebe;
+}
+
+.footer{
+    background: #f2f2f2;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.main{
+    padding-top: 11rem;
 }
